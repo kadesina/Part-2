@@ -32,10 +32,12 @@ After creating your Vultr account, go to the **Billing** section in your dashboa
 
 1. Add a **valid credit card** to verify your account.
 2. If you're a **new user**, you may be eligible to receive **up to $300 in free credit** as part of Vultr's promotional offer.
+3. At the bottom make sure you click on deposit $0.00 and link my credit card. 
 
 > ⚠️ **Note:** The free credit promotion is available for **new users only** and may vary based on current offers. Be sure to check the Vultr homepage or your email for any applicable promo codes.
 <img width="3394" height="1678" alt="image" src="https://github.com/user-attachments/assets/10e2c4ac-e1e6-41cc-9238-f90b97b9a7f5" />
 
+Step 3: once you have enter your credit card information, on the left side of your dashboard, click on product s then computer then in the middle of the window click xccomuter then "Deploy Server" 
 ### ✅ Goals
 - [x] Install all three VMs.
 - [x] Place all VMs on the same internal/private network.
