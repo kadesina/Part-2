@@ -38,13 +38,46 @@ After creating your Vultr account, go to the **Billing** section in your dashboa
 <img width="3394" height="1678" alt="image" src="https://github.com/user-attachments/assets/10e2c4ac-e1e6-41cc-9238-f90b97b9a7f5" />
 
 Step 3: once you have enter your credit card information, on the left side of your dashboard, click on product s then computer then in the middle of the window click xccomuter then "Deploy Server" 
-### ✅ Goals
-- [x] Install all three VMs.
-- [x] Place all VMs on the same internal/private network.
-- [x] Test network connectivity between all machines (`ping`, `tracert`, etc.).
-- [x] Promote one Windows Server to a Domain Controller.
-- [x] Join the second Windows Server to the domain.
-- [x] Prepare the Ubuntu machine for Splunk installation (Part 4).
+
+# Deploying Servers
+
+These next step-by-step guides will show you how to install and configure a server from scratch.
+
+I’ll walk you through the full setup process for the **first server**. Once that’s done, you can follow the **same steps** to deploy the **second server**, which will serve as our **test machine** (a Windows Server).
+
+1. **Navigate to https://my.vultr.com/** Sign in with your credentials
+2. **Click "Products"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/d3a5790b-521c-48a6-8184-95c014a9addd" />
+
+3. **Click "Compute"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/cc4c2392-e573-4ff9-ac23-d7b6a516a523" />
+
+4. **Click "Deploy Server"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/d8f68be4-25a2-41d8-ab87-ed506b5d03a4" />
+
+5. **Click on Shared CPU**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/3dcdd64a-acf4-4c68-807c-6310ab48c4c1" />
+
+6. **Click on the location closest to you mine is "New York (NJ)"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/a4fe0f92-a985-44ba-afae-bec80e324ef0" />
+
+7. **Click "All"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/4456d968-1880-4957-9f22-7eaf2e3227d9" />
+
+8. **Choose "vc2-2c-4gb" We dont need a alot of resources on the server**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/fcd10337-2a1e-44ac-88be-e6b64e5aae66" />
 
 
+
+
+
+### Test Machine Specs:
+For the Windows test server, be sure to select the following configuration:
+
+- **Plan:** `vc2-1c-2gb`
+- **Price:** $10/month
+
+> ⚠️ This option is lighter than the primary server because we don’t need high performance — it's strictly for testing purposes.
+
+Keep following the same process unless otherwise noted, and you'll have both servers deployed successfully.
 
