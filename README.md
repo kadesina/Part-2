@@ -67,15 +67,38 @@ I’ll walk you through the full setup process for the **first server**. Once th
 8. **Choose "vc2-2c-4gb" We dont need a alot of resources on the server**
 <img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/fcd10337-2a1e-44ac-88be-e6b64e5aae66" />
 
+9. **Click "Configure"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/da24cad9-1b43-482e-b4b1-b1c179e84b94" />
 
+10. **For our OS click on Windows Standard**
+11. **Click the drop down and select "2022 x64**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/e7adffcc-0ec0-419f-82ac-bcdaeac016a8" />
 
+12. **Click the "Server 1 Hostname" and give your server a name**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/6867a559-ea5d-4fd7-b142-ad3f666cc478" />
 
+13. **Click "Automatic Backups"**
+14. **Click the "Yes, I understand the risks." field.**
+15. **Click on "Disable Automatic Backups" its not needed for this project**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/78d0b6ee-8fa6-4350-ae2b-962ba709e2d3" />
 
-### Test Machine Specs:
-For the Windows test server, be sure to select the following configuration:
+16. **Click on "Public IPv4" then "Deploy"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/c5a95694-07f3-4ebc-b41f-cc259639a6d6" />
 
+17. **Once all is configured you should have your server installed and ready**
+<img width="1744" height="1012" alt="image" src="https://github.com/user-attachments/assets/ca8bde34-adf4-4e70-9211-9e1b845ea775" />
+
+## For the 2nd Server
+
+Follow the **exact same steps** from **Step One**, but make the following change when selecting server specifications:
+
+### Specs for the Test Server:
 - **Plan:** `vc2-1c-2gb`
 - **Price:** $10/month
+
+> 📝 This configuration is lighter and more cost-effective. It’s ideal for a test machine since we don’t need high performance for this environment.
+
+## Deploying Ubuntu server
 
 > ⚠️ This option is lighter than the primary server because we don’t need high performance — it's strictly for testing purposes.
 
