@@ -100,7 +100,8 @@ Follow the **exact same steps** from **Step One**, but make the following change
 
 ## Deploying Ubuntu server
 
-> ⚠️ This option is lighter than the primary server because we don’t need high performance — it's strictly for testing purposes.
+Deplopying the Ubuntu server has the same steps as deploying the windows server, jut with stronger specs because its going to host my splunk server. 
+
 
 Keep following the same process unless otherwise noted, and you'll have both servers deployed successfully.
 
