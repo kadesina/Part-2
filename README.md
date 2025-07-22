@@ -102,6 +102,35 @@ Follow the **exact same steps** from **Step One**, but make the following change
 
 Deplopying the Ubuntu server has the same steps as deploying the windows server, jut with stronger specs because its going to host my splunk server. 
 
+1. **Click "Products"**
+2. **Click "Compute"**
+3. **Cick "+Deploy" at the top right corner**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/184153b2-07fb-426d-bb99-bd927b6ed1fd" />
+
+4. **Click "Shared CPU"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/de65854e-eec5-4ddb-aadf-514343144c7b" />
+
+5. **Click "location closest to you"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/dd6d996b-ac99-42f7-a768-0e9f68ae58fb" />
+
+6. **Select Specs "vc2-4c-8gb"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/9a06b323-3fc3-44b8-8ff6-f0f121b049f8" />
+
+7. **Click "Configure"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/95a6599f-bb01-4edd-8d78-9134e5a643d1" />
+
+8. **Click on Ubuntu**
+9. **Click select Version then "22.04x64"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/5bfb6ba8-f992-4542-b3a3-c4d410ecd625" />
+
+10. **Click the "Server 1 Hostname" and give your server a name**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/666f7d98-eb04-45aa-b9f1-47b04aa3d58a" />
+
+
+
+
+
+
 
 Keep following the same process unless otherwise noted, and you'll have both servers deployed successfully.
 
