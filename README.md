@@ -126,6 +126,17 @@ Deplopying the Ubuntu server has the same steps as deploying the windows server,
 10. **Click the "Server 1 Hostname" and give your server a name**
 <img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/666f7d98-eb04-45aa-b9f1-47b04aa3d58a" />
 
+11. **Click "Automatic Backups"**
+12. **Click the "Yes, I understand the risks"**
+13. **Click the "Disable Automatic Backsups"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/021ba4d9-4df6-415e-8644-d8aafb1ab1a9" />
+
+14. **Click "Deploy"**
+<img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/a51d3bb4-d2b1-4805-8944-7f0c4493f7b9" />
+
+
+    
+
 
 
 
