@@ -134,10 +134,12 @@ Deplopying the Ubuntu server has the same steps as deploying the windows server,
 14. **Click "Deploy"**
 <img width="872" height="506" alt="image" src="https://github.com/user-attachments/assets/a51d3bb4-d2b1-4805-8944-7f0c4493f7b9" />
 
+Now that all our virtual machines have been created, it's time to tackle the **networking configuration** for all three systems.
+You should have 3 machines 
 
-    
+> 📌 **Tip:** Be sure to take note of the **IP addresses** assigned to each machine — this will be important for connectivity, SSH, Splunk forwarding, and troubleshooting later.
 
-
+## 🖧 Networking Setup for Virtual Machines
 
 
 
