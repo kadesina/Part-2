@@ -177,8 +177,12 @@ After your rules are added, you’ll be able to **assign this firewall group** t
 8. **Click "x.x.x.x/xx" Add your IP address**
 <img width="1812" height="1008" alt="image" src="https://github.com/user-attachments/assets/baf25186-a054-4c5f-b347-2cb0144275b8" />
 
+9. **Configure Inbound RDP from your IP address**
+10. **Click on "protocol" then select "MS RDP" the port number will automatically change to 3389**
+<img width="1812" height="1006" alt="image" src="https://github.com/user-attachments/assets/78d95775-fb54-496f-bddc-42cbecaf46f6" />
 
-
+11. **Click the "+" to add the rule** 
+<img width="1812" height="1006" alt="image" src="https://github.com/user-attachments/assets/5135ac92-ab7f-4ce3-b1d0-bb5e929f736f" />
 
 
 
