@@ -141,6 +141,43 @@ You should have 3 machines
 
 ## 🖧 Networking Setup for Virtual Machines
 
+## 🔒 Step 1: Create a Firewall Group in Vultr
+
+Before deploying any instances, the first thing to do is **create a Firewall Group** in Vultr. This helps control which ports are open or closed to your virtual machines, adding a critical layer of security.
+
+
+After your rules are added, you’ll be able to **assign this firewall group** to your virtual machines during or after deployment.
+
+1. **Click "Netwroking"**
+<img width="906" height="502" alt="image" src="https://github.com/user-attachments/assets/78b6cd80-0a92-45c1-a60b-d7055c243760" />
+
+2. **Click "Firewall"**
+<img width="906" height="502" alt="image" src="https://github.com/user-attachments/assets/705f5016-c48d-497c-82b7-42df6fa38065" />
+
+3. **Click "Add Firewall Group"**
+<img width="906" height="502" alt="image" src="https://github.com/user-attachments/assets/d0cc1b37-06f7-4de8-8922-7a19547240bd" />
+
+4. **Click "Description"**
+5. **Give your Firewall Group a name**
+<img width="906" height="502" alt="image" src="https://github.com/user-attachments/assets/9a5a4bfa-5c94-43dc-8a1f-4447c3c5ac18" />
+
+
+> 📝 **Note:** When the Firewall Group is first created, Vultr automatically adds a default rule that allows SSH connections (**port 22**) from **anywhere (0.0.0.0/0)**.
+>
+> 🔒 This is a **security risk**. You should immediately **edit this rule** to restrict SSH access to **your specific IP address only**. This minimizes the chances of brute-force attacks and unauthorized access.
+> 
+> ✅ To find your public IP address, visit [https://whatismyipaddress.com](https://whatismyipaddress.com), then update the rule to use your IP in CIDR format (e.g., `192.0.2.1/32`).
+
+6. **Click "Anywhere"**
+<img width="906" height="502" alt="image" src="https://github.com/user-attachments/assets/1d9b89ef-7a97-430b-80e5-360c37528b08" />
+
+7. **Click "Custom"**
+<img width="906" height="502" alt="image" src="https://github.com/user-attachments/assets/9277d6f4-1d8a-4574-9e80-54719d9f6313" />
+
+8. **Click "x.x.x.x/xx" Add your IP address**
+<img width="1812" height="1008" alt="image" src="https://github.com/user-attachments/assets/baf25186-a054-4c5f-b347-2cb0144275b8" />
+
+
 
 
 
