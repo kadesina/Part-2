@@ -221,15 +221,34 @@ Steps:
 
 ✅ **Perform these same steps for all your virtual machines** to ensure consistent security across your entire environment.
 
+### 🌐 Creating a VPC Network
+
+Now I'm going to create a **VPC (Virtual Private Cloud)** network so that all my virtual machines can communicate with each other internally.
+
+> 💡 **Note:** Each machine will have both a **public** and a **private** IP address.
+
+1. **Click on your Virtual Machine**
+<img width="863" height="506" alt="image" src="https://github.com/user-attachments/assets/47980b57-a059-48fe-8371-eff1473d2734" />
+
+2. **Click Settings**
+<img width="863" height="506" alt="image" src="https://github.com/user-attachments/assets/cfd33c77-5da2-4540-a802-2481a8904f72" />
+
+3. **Click "VPC Networks"**
+<img width="863" height="506" alt="image" src="https://github.com/user-attachments/assets/28157dfd-b91b-4dbe-a652-820adf89adf4" />
+
+4. **Click "Enable VPC"**
+<img width="863" height="506" alt="image" src="https://github.com/user-attachments/assets/e7c88f32-a703-4168-a5ba-a68bcb523701" />
+
+> 💡 **Note:** VPC will only work in the same region as your Vm. you can't create a VPC in 2 different region
+
+### 🔍 Testing Connectivity
+
+The next step is to **log into my Ubuntu server** and try to **ping my test machine** to verify internal connectivity between the virtual machines.
+
+<img width="1726" height="1012" alt="image" src="https://github.com/user-attachments/assets/10c30cdb-9424-48e6-87ce-b6b82c7cc426" />
+
+> As you can see, there's no connectivity. Now we need to troubleshoot by checking which IP addresses are assigned to the machines.
 
 
-
-
-
-
-
-### 📡 Accessing the Machine Through Console or Remote Session
-
-You can access
 
 
