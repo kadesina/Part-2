@@ -187,19 +187,46 @@ After your rules are added, you’ll be able to **assign this firewall group** t
 
 ---
 
-### 🔐 Now that we have configured our Firewall...
+### 🔐 Now that I have my Firewall rules in place...
 
 We've secured our **SSH** and **RDP** protocols to **only accept connections from our network** — an essential step to prevent unauthorized access.
 
 ---
 
-### 🖥️ Adding Virtual Machines to the Firewall
+### 🖥️ Adding Firewall to Virtual Machines
 
 Once your firewall rules are in place, the next step is to assign your **virtual machines (VMs)** to the configured **Firewall Group** to ensure they inherit those protections.
 
 Steps:
 
----
+1. **Click on your Virtual Machine***
+<img width="863" height="497" alt="image" src="https://github.com/user-attachments/assets/7f8a7da1-1322-4db7-b212-d649af253730" />
+
+2. **Click on Settings**
+<img width="863" height="497" alt="image" src="https://github.com/user-attachments/assets/5e466379-e5ca-488a-b813-aeb26b085afb" />
+
+3. **Click on Firewall**
+<img width="863" height="497" alt="image" src="https://github.com/user-attachments/assets/29e4e18b-79fc-400a-97e1-8c685e2b16fb" />
+
+4. **Click on the Dropdown**
+<img width="863" height="497" alt="image" src="https://github.com/user-attachments/assets/b8c70242-d8e9-412e-8bc2-dfc46c9c4810" />
+
+5. **Click on the Firewall Group Created**
+<img width="863" height="497" alt="image" src="https://github.com/user-attachments/assets/99927122-d68a-4b3a-b3e1-d109ddaa0bc5" />
+
+6. **Click on Update Firewall Group**
+<img width="863" height="506" alt="image" src="https://github.com/user-attachments/assets/629f7078-0171-49b6-ac7c-31cf5578abfc" />
+
+### 🔁 Repeat the Process
+
+✅ **Perform these same steps for all your virtual machines** to ensure consistent security across your entire environment.
+
+
+
+
+
+
+
 
 ### 📡 Accessing the Machine Through Console or Remote Session
 
