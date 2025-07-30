@@ -249,6 +249,20 @@ The next step is to **log into my Ubuntu server** and try to **ping my test mach
 
 > As you can see, there's no connectivity. Now we need to troubleshoot by checking which IP addresses are assigned to the machines.
 
+---
+
+### 🛠️ Troubleshooting Steps
+
+1. Log into the **test machine**
+2. Open **Command Prompt**
+3. Run the command: *ipconfig*
+4. Look under "Ethernet adapter Ethernet 2" (or similar):
+   Check that the IP address is not an automatic private IP starting with 169.x.x.x
+   If it is, that means the machine did not receive an IP from DHCP and cannot communicate properly.
+<img width="1308" height="1012" alt="image" src="https://github.com/user-attachments/assets/54d54503-d27c-4210-bee2-a18658c41af7" />
+
+
+
 
 
 
